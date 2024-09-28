@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+input,
+output {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+input,
+output:focus {
+    outline: none;
+}
+
+/* ====================================================== main */
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
