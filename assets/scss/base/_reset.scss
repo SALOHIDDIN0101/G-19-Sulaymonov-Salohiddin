@@ -1,0 +1,187 @@
+.header {
+    background-color: #190422;
+    padding: 17px 0 131px;
+
+    .nav {
+        // padding-top: 17px;
+
+        &-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-img {
+            img {
+                width: 100%;
+            }
+        }
+
+        &-menu {
+            display: flex;
+
+            ul {
+                display: flex;
+                // margin-right: 70px;
+                gap: 60px;
+                align-items: center;
+
+
+                a {
+                    font-family: "Poppins";
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: #ffff;
+
+                    &:hover {
+                        color: #d7b9fd;
+                    }
+                }
+            }
+
+            button {
+                font-family: "Poppins";
+                font-size: 22px;
+                font-weight: 500;
+                line-height: 33px;
+                border-radius: 7px;
+                padding: 12px 32px 12px 25px;
+                background-color: #d7b9fd;
+                transition: all 0.4s linear;
+
+
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+
+
+
+        }
+
+        &-burger {
+            display: none;
+        }
+
+    }
+
+    &-content {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        // gap: 60px;
+    }
+
+    &-left {
+        max-width: 631px;
+
+        h1 {
+            font-family: "Poppins";
+            font-size: 80px;
+            font-weight: 600;
+            line-height: 96px;
+            color: #fff;
+            margin-top: 136px;
+        }
+
+        p {
+            font-family: "Poppins";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 31.6px;
+            color: #fff;
+            margin-top: 32px;
+        }
+
+        button {
+            font-family: "Poppins";
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 33px;
+            margin-top: 32px;
+            border-radius: 7px;
+            padding: 12px 24px;
+            cursor: pointer;
+            background-color: #D7B9FD;
+            transition: all 0.4s linear;
+            border: none;
+
+            &:hover {
+                background-color: #fff;
+            }
+        }
+
+    }
+
+    &-right {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        padding: 17px 0 98px;
+
+        .nav {
+            &-menu {
+                display: none !important;
+            }
+
+            &-burger {
+                display: inline-block !important;
+            }
+
+        }
+
+        &-content {
+            margin-top: 80px;
+        }
+
+        &-left {
+            max-width: 370px;
+
+            h1 {
+                margin: 0;
+                font-size: 48px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        &-right {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 17px 0 75px;
+
+        &-content {
+            margin-top: 60px;
+            display: inline-block;
+        }
+
+        &-left {
+            p {
+                margin-top: 24px;
+            }
+
+            button {
+                margin-top: 24px;
+            }
+
+            margin-bottom: 32px;
+        }
+    }
+}
+
+// ============================ nav tugadi =====================

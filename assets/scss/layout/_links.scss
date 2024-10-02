@@ -1,0 +1,135 @@
+.Service {
+    background-color: #f1f8ff;
+
+    &-content {
+        display: flex;
+        gap: 173px;
+    }
+
+    h1 {
+        font-family: "Poppins";
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 75.84px;
+        margin-bottom: 40px;
+        padding-top: 80px;
+    }
+
+    &-left {
+        margin-bottom: 120px;
+        max-width: 500px;
+
+        h3 {
+            font-family: "Poppins";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 31.6px;
+            margin-top: 36px;
+        }
+
+        p {
+            font-family: "Poppins";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 31.6px;
+            margin-top: 12px;
+            margin-bottom: 40px;
+        }
+    }
+
+    &-right {
+        max-width: 500px;
+
+        .h3 {
+            font-family: "Poppins";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 31.6px;
+            margin-top: 36px;
+        }
+
+        .p1 {
+            font-family: "Poppins";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 31.6px;
+            margin-top: 12px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Service {
+        background-color: #f1f8ff;
+
+        &-content {
+            display: flex;
+            gap: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .Service {
+        background-color: #f1f8ff;
+
+        &-content {
+            display: flex;
+            display: inline-block;
+            gap: 50px;
+        }
+
+        h1 {
+            font-family: "Poppins";
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 75.84px;
+            margin-bottom: 40px;
+            padding-top: 32px;
+        }
+
+        &-left {
+            margin-bottom: 100px;
+            max-width: 500px;
+
+            h3 {
+                font-family: "Poppins";
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 31.6px;
+                margin-top: 36px;
+            }
+
+            p {
+                font-family: "Poppins";
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 31.6px;
+                margin-top: 12px;
+                margin-bottom: 40px;
+            }
+        }
+
+        &-right {
+            max-width: 500px;
+
+            .h3 {
+                font-family: "Poppins";
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 31.6px;
+                margin-top: 36px;
+            }
+
+            .p1 {
+                font-family: "Poppins";
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 31.6px;
+                margin-top: 12px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
